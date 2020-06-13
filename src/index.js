@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import Color from './color.js'
+
 import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Color />
   </React.StrictMode>,
   document.getElementById('root')
 );
